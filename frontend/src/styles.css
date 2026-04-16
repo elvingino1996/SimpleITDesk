@@ -1,0 +1,85 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f4f5f7;
+  color: #222;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.stats div {
+  background: #f8fafc;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.stats strong {
+  display: block;
+  font-size: 1.3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+label {
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+}
+
+input,
+select,
+button {
+  padding: 0.5rem;
+  border: 1px solid #d0d7de;
+  border-radius: 0.35rem;
+}
+
+button {
+  cursor: pointer;
+  background: #0366d6;
+  color: white;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  padding: 0.45rem;
+  font-size: 0.9rem;
+}
+
+.error {
+  color: #c62828;
+}
